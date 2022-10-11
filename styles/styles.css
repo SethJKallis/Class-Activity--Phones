@@ -45,7 +45,7 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: #000;
     color: whitesmoke;
-    list-style: disc inside;
+    list-style: none inside;
     display: flex;
     width: 50%;
     justify-content: center;
@@ -56,7 +56,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: red;
     color: #333;
-    list-style: square inside;
+    list-style: none inside;
     display: flex;
     width: 50%;
     justify-content: center;
