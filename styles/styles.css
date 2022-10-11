@@ -10,11 +10,32 @@
 } */
 
 /* Pseudo Selector*/
-ul li:nth-child(1), ul li:nth-child(5){
+/* ul li:nth-child(1), ul li:nth-child(5){
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     background-color: #333;
     color: white;
     list-style: square inside;
     padding:  0 1rem;
+} */
+
+/* Pseudo Class Selector */
+.phone li:nth-child(1){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    list-style: lower-alpha inside;
+    padding: 0 0.5rem;
+    text-align: center;
+    
+}
+
+.phone li:nth-child(5){
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
