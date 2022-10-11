@@ -19,8 +19,8 @@
     padding:  0 1rem;
 } */
 
-/* Pseudo Class Selector */
-.phone li:nth-child(1){
+/* Pseudo Class Selector using nth-child*/
+/* .phone li:nth-child(1){
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
@@ -38,4 +38,27 @@
     color: whitesmoke;
     display: flex;
     justify-content: center;
+} */
+
+/* Pseudo Selector using last/first child */
+.phone li:first-child{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: whitesmoke;
+    list-style: disc inside;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+.phone li:last-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: #333;
+    list-style: square inside;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
 }
