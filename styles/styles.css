@@ -1,0 +1,20 @@
+/* Class Selector */
+/* .phone-style{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    background-color: #333;
+    color: white;
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0 1rem;
+} */
+
+/* Pseudo Selector*/
+ul li:nth-child(1), ul li:nth-child(5){
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    background-color: #333;
+    color: white;
+    list-style: square inside;
+    padding:  0 1rem;
+}
